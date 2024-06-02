@@ -1,14 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peal's Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css"/>
-</head>
-<body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> LinkedIn </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Github </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="false">Resume </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Hero -->
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 mx-5" bis_skin_checked="1">
+      <div class="col-10 col-sm-8 col-lg-6" bis_skin_checked="1">
+        <img src="./assets/Image/PP.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6" bis_skin_checked="1">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> Hello  I am Peal Hasan </h1>
+        <p class="lead" style="text-align: center">Welcome to my personal protfolio website</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start" bis_skin_checked="1">
+        </div>
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="container py-5 my-5" bis_skin_checked="1">
+      <h1 class="text-body-emphasis" style="text-align: center;">About Me</h1>
+      <p class="col-lg-8 mx-auto lead" style="text-align: center;">
+          I am a Computer Science student at Stony Brook University, with a
+          passion for software development and engineering. I am pursuing a
+          Bachelor of Science in Computer Science, where I have excelled in
+          courses such as OOP in JAVA, Data Structures and Algorithms, System
+          fundamental, Programming in C, Lower-level Programming, and programming 
+          abstraction.
+      </p>
+    </div>
+
+    <!-- Skills -->
+      
+    <h1 class="text-body-emphasis" style="text-align: center;"> Skills</h1>
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3 px-5" bis_skin_checked="1">
+      <div class="col" bis_skin_checked="1">
+        <div class="card card-cover h-10 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');" bis_skin_checked="1">
+          <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1" bis_skin_checked="1">
+            <h3 class="display-6 lh-1 fw-bold" style="text-align: center;">
+                Frontend
+            </h3>
+                <ul style="text-align: center">
+                    <li>&nbsp;</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Git</li>
+                    <li>RESTful API</li>
+                    <li>PrestoSQL</li>
+                </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" bis_skin_checked="1">
+        <div class="card card-cover h-10 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');" bis_skin_checked="1">
+          <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1" bis_skin_checked="1">
+            <h3 class="display-6 lh-1 fw-bold" style="text-align: center;"> Backend</h3>
+                <ul style="text-align: center">
+                    <li>&nbsp;</li>
+                    <li>JAVA</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>VS Control</li>
+                </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" bis_skin_checked="1">
+        <div class="card card-cover h-10 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');" bis_skin_checked="1">
+          <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1" bis_skin_checked="1">
+            <h3 class="display-6 lh-1 fw-bold" style="text-align: center;"> Framework</h3>
+                <ul style="text-align: center">
+                    <li>&nbsp;</li>
+                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>Tensorflow</li>
+                    <li>Flask</li>
+                    <li>jQuery</li>
+                    <li>Angular</li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
